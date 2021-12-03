@@ -1,0 +1,24 @@
+<div class="container mt-lg-5">
+    
+    <form (submit)="sendData(nom,ip,systemExploitation)">
+    
+          <div class="form-group">
+            <label for="exampleInputEmail1">nom machine</label>
+            <input type="text" #nom class="form-control" id="" aria-describedby="emailHelp" placeholder="nom machine">
+           
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="exampleInputPassword1">ip machine</label>
+            <input type="text" #ip class="form-control" id="" placeholder="id machine">
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="exampleInputPassword1">System d'Exploitation</label>
+            <input type="text" #systemExploitation class="form-control" id="" placeholder="System d'exploitation">
+          </div>
+          <br>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
